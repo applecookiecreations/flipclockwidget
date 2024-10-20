@@ -1,1 +1,35 @@
+.flip-clock {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.digit {
+  position: relative;
+  width: 80px;
+  height: 100px;
+}
+
+.digit-top,
+.digit-bottom {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.digit-top {
+  border-bottom: 2px solid black;
+  top: 0;
+}
+
+.digit-bottom {
+  bottom: 0;
+  border-top: 2px solid black;
+}
 
