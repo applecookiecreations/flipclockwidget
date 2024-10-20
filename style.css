@@ -38,3 +38,11 @@ body {
 .digit-bottom {
   border-top: 2px solid #FFD700; /* Top border color */
 }
+
+.ampm {
+  color: #FFD700;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
