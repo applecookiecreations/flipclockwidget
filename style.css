@@ -7,25 +7,34 @@
   }
 }
 
+body {
+  font-family: 'Roboto', sans-serif; /* Use Google Fonts or custom font */
+}
+
 .flip-clock {
-  display: flex;
-  justify-content: space-around;
-  width: 300px;
-  perspective: 1000px;
+  background-color: #222; /* Clock background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .digit {
-  position: relative;
-  width: 80px;
-  height: 100px;
-  perspective: 1000px;
+  background-color: #444;
+  border-radius: 5px;
+  color: #FFD700; /* Digit color - Gold */
 }
 
 .digit-top,
 .digit-bottom {
-  position: absolute;
-  width: 100%;
- 
-body {
-  font-family: 'Roboto', sans-serif; /* Use Google Fonts or custom font */
+  background-color: #555;
+  font-size: 2.5em; /* Make the digits bigger */
+  color: #FFF;
+}
+
+.digit-top {
+  border-bottom: 2px solid #FFD700; /* Bottom border color */
+}
+
+.digit-bottom {
+  border-top: 2px solid #FFD700; /* Top border color */
 }
