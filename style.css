@@ -26,3 +26,6 @@
   position: absolute;
   width: 100%;
  
+body {
+  font-family: 'Roboto', sans-serif; /* Use Google Fonts or custom font */
+}
